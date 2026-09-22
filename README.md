@@ -1,8 +1,30 @@
-# React + Vite
+# Tic Tac Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tres en raya en el navegador, hecho con **React** y **Vite**. Es la pieza `02` del conjunto de ejercicios que también está en el repositorio [react](https://github.com/ivanrp14/react).
 
-Currently, two official plugins are available:
+## Qué hay ahora
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Tablero de 9 casillas (`Square`).
+- Turnos `x` y `o` definidos en `TURNS`.
+- Título “Tic Tac Toe”.
+
+`src/App.jsx` pinta el tablero. La regla de victoria, el cambio de turno al pulsar y el reinicio, si se añaden, van en ese mismo componente.
+
+## Stack
+
+- React 18
+- Vite
+- Plugin React SWC
+
+## Cómo ejecutarlo
+
+```bash
+npm install
+npm run dev
+```
+
+```bash
+npm run build
+npm run preview
+npm run lint
+```
