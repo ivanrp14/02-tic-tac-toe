@@ -1,22 +1,22 @@
 # Tic Tac Toe
 
-Tres en raya en el navegador, hecho con **React** y **Vite**. Es la pieza `02` del conjunto de ejercicios que también está en el repositorio [react](https://github.com/ivanrp14/react).
+A browser tic-tac-toe game built with **React** and **Vite**. It is exercise `02` from the set that also lives in the [react](https://github.com/ivanrp14/react) repository.
 
-## Qué hay ahora
+## What's there now
 
-- Tablero de 9 casillas (`Square`).
-- Turnos `x` y `o` definidos en `TURNS`.
-- Título “Tic Tac Toe”.
+- A 9-cell board (`Square`).
+- Turns `x` and `o`, defined in `TURNS`.
+- The title “Tic Tac Toe”.
 
-`src/App.jsx` pinta el tablero. La regla de victoria, el cambio de turno al pulsar y el reinicio, si se añaden, van en ese mismo componente.
+`src/App.jsx` draws the board. Win detection, switching turns on click, and restart, if you add them, belong in that same component.
 
 ## Stack
 
 - React 18
 - Vite
-- Plugin React SWC
+- React SWC plugin
 
-## Cómo ejecutarlo
+## How to run
 
 ```bash
 npm install
